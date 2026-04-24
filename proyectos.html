@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Proyectos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Gestión de Proyectos</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Explorador de Proyectos</h1>
+
+        <section>
+            <h2>Filtros de búsqueda</h2>
+            <form action="#">
+                <select name="categoria">
+                    <option value="">Categoría</option>
+                    <option value="ingenieria">Ingeniería</option>
+                    <option value="informatica">Informatica</option>
+                    <option value="Educacion">Informatica</option>
+                    <option value="Gestion">Informatica</option>
+                    <option value="Gestion">Comunicacion</option>
+                </select>
+                <select name="año">
+                    <option value="">Año</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                </select>
+                <select name="estado">
+                    <option value="">Estado</option>
+                    <option value="curso">En curso</option>
+                    <option value="finalizado">Finalizado</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <h2>Listado de Proyectos</h2><br>
+            <article>
+                <img class="img" src="img/proyecto/proyecto1.png" alt="Imagen del proyecto">
+                <h3>Sistema de Inventario UNJu</h3>
+                <p>Desarrollo de un sistema para gestión de stock de laboratorios.</p>
+                <p>Categoría: Informatica</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article><br>
+
+            <article>
+                <img class="img" src="img/proyecto/proyecto2.webp" alt="Imagen del proyecto">
+                <h3>App de Tutorías</h3>
+                <p>Plataforma para conectar alumnos con tutores académicos.</p>
+                <p>Categoría: Educacion</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article><br>
+                <img class="img" src="img/proyecto/proyecto3.png" alt="Imagen del proyecto">
+                <h3>Simulador de Circuitos</h3>
+                <p>Software para modelar circuitos eléctricos básicos.</p>
+                <p>Categoría: Ingenieria</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article><br>
+                <img class="img" src="img/proyecto/proyecto4.avif" alt="Imagen del proyecto">
+                <h3>Gestor de Biblioteca</h3>
+                <p>Automatización de préstamos de libros para la facultad.</p>
+                <p>Categoría: Gestion</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article><br>
+                <img class="img" src="img/proyecto/proyecto5.webp" alt="Imagen del proyecto">
+                <h3>Portal de Noticias UNJu</h3>
+                <p>Blog para publicaciones de eventos estudiantiles.</p>
+                <p>Categoría: Comunicacion</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pruebas de proyectos Programacion Visual.</p>
+    </footer>
+</body>
+</html>
