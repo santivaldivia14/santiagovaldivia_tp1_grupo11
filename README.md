@@ -7,3 +7,5 @@ Farfán Ezequiel Pablo
 Usuario de Github: ezequielfarfan03
 Lamas Joaquin Matias
 Usuario de Github: lamasjoaquinM
+Sergio Maximiliano Santucho 
+Usuario de Github: maxisantucho12
