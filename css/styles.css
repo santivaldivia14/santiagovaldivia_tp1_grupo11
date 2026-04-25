@@ -155,6 +155,12 @@ main {
     border-left: 4px solid var(--accent-color);
 }
 
+.perfil-container{
+    display: flex; 
+    gap: 100px; 
+    flex-wrap: wrap;   
+}
+
 /* Proyectos - proyectos.html */
 .filtros {
     background: var(--card-background);
