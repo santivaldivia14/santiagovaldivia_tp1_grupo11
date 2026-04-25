@@ -5,3 +5,5 @@ Gutierrez Francisco Gonzalo
 usuario de Github: FranciscoGGutierrez
 Farfán Ezequiel Pablo
 Usuario de Github: ezequielfarfan03
+Lamas Joaquin Matias
+Usuario de Github: lamasjoaquinM
